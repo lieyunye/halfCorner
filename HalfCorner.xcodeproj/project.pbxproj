@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC650FFB18A76E870034CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC650FFA18A76E870034CA40 /* Foundation.framework */; };
+		FC650FFD18A76E870034CA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC650FFC18A76E870034CA40 /* CoreGraphics.framework */; };
+		FC650FFF18A76E870034CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC650FFE18A76E870034CA40 /* UIKit.framework */; };
+		FC65100518A76E870034CA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC65100318A76E870034CA40 /* InfoPlist.strings */; };
+		FC65100718A76E870034CA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65100618A76E870034CA40 /* main.m */; };
+		FC65100B18A76E870034CA40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65100A18A76E870034CA40 /* AppDelegate.m */; };
+		FC65100D18A76E870034CA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC65100C18A76E870034CA40 /* Images.xcassets */; };
+		FC65101418A76E870034CA40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC65101318A76E870034CA40 /* XCTest.framework */; };
+		FC65101518A76E870034CA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC650FFA18A76E870034CA40 /* Foundation.framework */; };
+		FC65101618A76E870034CA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC650FFE18A76E870034CA40 /* UIKit.framework */; };
+		FC65101E18A76E870034CA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC65101C18A76E870034CA40 /* InfoPlist.strings */; };
+		FC65102018A76E870034CA40 /* HalfCornerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65101F18A76E870034CA40 /* HalfCornerTests.m */; };
+		FC65102C18A76EC30034CA40 /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65102A18A76EC30034CA40 /* TViewController.m */; };
+		FC65102D18A76EC30034CA40 /* TViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC65102B18A76EC30034CA40 /* TViewController.xib */; };
+		FC65103318A76F430034CA40 /* HalfRoundCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC65103218A76F430034CA40 /* HalfRoundCornerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC65101718A76E870034CA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC650FEF18A76E870034CA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC650FF618A76E870034CA40;
+			remoteInfo = HalfCorner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC650FF718A76E870034CA40 /* HalfCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC650FFA18A76E870034CA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC650FFC18A76E870034CA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC650FFE18A76E870034CA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC65100218A76E870034CA40 /* HalfCorner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HalfCorner-Info.plist"; sourceTree = "<group>"; };
+		FC65100418A76E870034CA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC65100618A76E870034CA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC65100818A76E870034CA40 /* HalfCorner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HalfCorner-Prefix.pch"; sourceTree = "<group>"; };
+		FC65100918A76E870034CA40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC65100A18A76E870034CA40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC65100C18A76E870034CA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC65101218A76E870034CA40 /* HalfCornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfCornerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC65101318A76E870034CA40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC65101B18A76E870034CA40 /* HalfCornerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HalfCornerTests-Info.plist"; sourceTree = "<group>"; };
+		FC65101D18A76E870034CA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC65101F18A76E870034CA40 /* HalfCornerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalfCornerTests.m; sourceTree = "<group>"; };
+		FC65102918A76EC30034CA40 /* TViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
+		FC65102A18A76EC30034CA40 /* TViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
+		FC65102B18A76EC30034CA40 /* TViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TViewController.xib; sourceTree = "<group>"; };
+		FC65103118A76F430034CA40 /* HalfRoundCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfRoundCornerView.h; sourceTree = "<group>"; };
+		FC65103218A76F430034CA40 /* HalfRoundCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalfRoundCornerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC650FF418A76E870034CA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC650FFD18A76E870034CA40 /* CoreGraphics.framework in Frameworks */,
+				FC650FFF18A76E870034CA40 /* UIKit.framework in Frameworks */,
+				FC650FFB18A76E870034CA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC65100F18A76E870034CA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC65101418A76E870034CA40 /* XCTest.framework in Frameworks */,
+				FC65101618A76E870034CA40 /* UIKit.framework in Frameworks */,
+				FC65101518A76E870034CA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC650FEE18A76E870034CA40 = {
+			isa = PBXGroup;
+			children = (
+				FC65100018A76E870034CA40 /* HalfCorner */,
+				FC65101918A76E870034CA40 /* HalfCornerTests */,
+				FC650FF918A76E870034CA40 /* Frameworks */,
+				FC650FF818A76E870034CA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC650FF818A76E870034CA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC650FF718A76E870034CA40 /* HalfCorner.app */,
+				FC65101218A76E870034CA40 /* HalfCornerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC650FF918A76E870034CA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC650FFA18A76E870034CA40 /* Foundation.framework */,
+				FC650FFC18A76E870034CA40 /* CoreGraphics.framework */,
+				FC650FFE18A76E870034CA40 /* UIKit.framework */,
+				FC65101318A76E870034CA40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC65100018A76E870034CA40 /* HalfCorner */ = {
+			isa = PBXGroup;
+			children = (
+				FC65100918A76E870034CA40 /* AppDelegate.h */,
+				FC65100A18A76E870034CA40 /* AppDelegate.m */,
+				FC65102918A76EC30034CA40 /* TViewController.h */,
+				FC65102A18A76EC30034CA40 /* TViewController.m */,
+				FC65102B18A76EC30034CA40 /* TViewController.xib */,
+				FC65100C18A76E870034CA40 /* Images.xcassets */,
+				FC65100118A76E870034CA40 /* Supporting Files */,
+				FC65103118A76F430034CA40 /* HalfRoundCornerView.h */,
+				FC65103218A76F430034CA40 /* HalfRoundCornerView.m */,
+			);
+			path = HalfCorner;
+			sourceTree = "<group>";
+		};
+		FC65100118A76E870034CA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC65100218A76E870034CA40 /* HalfCorner-Info.plist */,
+				FC65100318A76E870034CA40 /* InfoPlist.strings */,
+				FC65100618A76E870034CA40 /* main.m */,
+				FC65100818A76E870034CA40 /* HalfCorner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC65101918A76E870034CA40 /* HalfCornerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC65101F18A76E870034CA40 /* HalfCornerTests.m */,
+				FC65101A18A76E870034CA40 /* Supporting Files */,
+			);
+			path = HalfCornerTests;
+			sourceTree = "<group>";
+		};
+		FC65101A18A76E870034CA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC65101B18A76E870034CA40 /* HalfCornerTests-Info.plist */,
+				FC65101C18A76E870034CA40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC650FF618A76E870034CA40 /* HalfCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC65102318A76E880034CA40 /* Build configuration list for PBXNativeTarget "HalfCorner" */;
+			buildPhases = (
+				FC650FF318A76E870034CA40 /* Sources */,
+				FC650FF418A76E870034CA40 /* Frameworks */,
+				FC650FF518A76E870034CA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalfCorner;
+			productName = HalfCorner;
+			productReference = FC650FF718A76E870034CA40 /* HalfCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC65101118A76E870034CA40 /* HalfCornerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC65102618A76E880034CA40 /* Build configuration list for PBXNativeTarget "HalfCornerTests" */;
+			buildPhases = (
+				FC65100E18A76E870034CA40 /* Sources */,
+				FC65100F18A76E870034CA40 /* Frameworks */,
+				FC65101018A76E870034CA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC65101818A76E870034CA40 /* PBXTargetDependency */,
+			);
+			name = HalfCornerTests;
+			productName = HalfCornerTests;
+			productReference = FC65101218A76E870034CA40 /* HalfCornerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC650FEF18A76E870034CA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lieyunye;
+				TargetAttributes = {
+					FC65101118A76E870034CA40 = {
+						TestTargetID = FC650FF618A76E870034CA40;
+					};
+				};
+			};
+			buildConfigurationList = FC650FF218A76E870034CA40 /* Build configuration list for PBXProject "HalfCorner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC650FEE18A76E870034CA40;
+			productRefGroup = FC650FF818A76E870034CA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC650FF618A76E870034CA40 /* HalfCorner */,
+				FC65101118A76E870034CA40 /* HalfCornerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC650FF518A76E870034CA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC65100518A76E870034CA40 /* InfoPlist.strings in Resources */,
+				FC65102D18A76EC30034CA40 /* TViewController.xib in Resources */,
+				FC65100D18A76E870034CA40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC65101018A76E870034CA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC65101E18A76E870034CA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC650FF318A76E870034CA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC65100B18A76E870034CA40 /* AppDelegate.m in Sources */,
+				FC65100718A76E870034CA40 /* main.m in Sources */,
+				FC65102C18A76EC30034CA40 /* TViewController.m in Sources */,
+				FC65103318A76F430034CA40 /* HalfRoundCornerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC65100E18A76E870034CA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC65102018A76E870034CA40 /* HalfCornerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC65101818A76E870034CA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC650FF618A76E870034CA40 /* HalfCorner */;
+			targetProxy = FC65101718A76E870034CA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC65100318A76E870034CA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC65100418A76E870034CA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC65101C18A76E870034CA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC65101D18A76E870034CA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC65102118A76E880034CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC65102218A76E880034CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC65102418A76E880034CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfCorner/HalfCorner-Prefix.pch";
+				INFOPLIST_FILE = "HalfCorner/HalfCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC65102518A76E880034CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfCorner/HalfCorner-Prefix.pch";
+				INFOPLIST_FILE = "HalfCorner/HalfCorner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC65102718A76E880034CA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HalfCorner.app/HalfCorner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfCorner/HalfCorner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HalfCornerTests/HalfCornerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC65102818A76E880034CA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HalfCorner.app/HalfCorner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HalfCorner/HalfCorner-Prefix.pch";
+				INFOPLIST_FILE = "HalfCornerTests/HalfCornerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC650FF218A76E870034CA40 /* Build configuration list for PBXProject "HalfCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC65102118A76E880034CA40 /* Debug */,
+				FC65102218A76E880034CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC65102318A76E880034CA40 /* Build configuration list for PBXNativeTarget "HalfCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC65102418A76E880034CA40 /* Debug */,
+				FC65102518A76E880034CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC65102618A76E880034CA40 /* Build configuration list for PBXNativeTarget "HalfCornerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC65102718A76E880034CA40 /* Debug */,
+				FC65102818A76E880034CA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC650FEF18A76E870034CA40 /* Project object */;
+}
